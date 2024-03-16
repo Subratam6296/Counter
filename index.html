@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Counter Page</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <h3 class="center-align">Counter using HTML</h3>
+  <div class="row">
+    <div class="col s12 m6 offset-m3">
+      <div class="card teal lighten-5">
+        <div class="card-content center-align">
+          <div class="counter-wrapper">           
+            <div class="count-text">Your count is</div>
+            <div class="counter">0</div>
+          </div>
+          <div class="error red-text">Error: Cannot go below 0</div>
+          <div class="button-group">
+            <button id="decrement" class="waves-effect waves-light btn red darken-3"><i class="material-icons">remove</i></button>
+            <button id="increment" class="waves-effect waves-light btn green darken-3"><i class="material-icons">add</i></button>
+            <button id="clear" class="waves-effect waves-light btn blue darken-3">Clear</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

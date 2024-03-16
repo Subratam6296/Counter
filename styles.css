@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+
+  .counter {
+    font-size: 64px;
+    margin-bottom: 20px;
+    width: auto;
+    display: inline-block;
+}
+  
+  .counter-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+  .count-text {
+    margin-bottom: 20px;
+  }
+  
+  .error {
+    display: none;
+    padding: 30px; /* Add padding around the error text */
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button-group button {
+    margin: 0 10px;
+  }
+  
+  .card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .btn {
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .btn i {
+    font-size: 20px;
+  }  
